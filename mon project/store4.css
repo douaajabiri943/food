@@ -1,0 +1,105 @@
+a{
+    text-decoration: none ;
+     color:black;
+  
+  }
+  header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: -7px;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+  
+  }
+  .logo{
+    font-size: 40px;
+    text-transform: uppercase;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow:6px 8px 10px white;
+    
+  
+  }
+  ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+  
+  }
+  li a{
+    margin-right: 30px;
+    padding: 6px 15px ;
+    border-radius: 20px;
+  }
+  
+  
+  
+  li a:hover{
+    color:burlywood;
+    background-color: whitesmoke;
+  
+  }
+
+
+
+.about{
+    padding: 50px 20px;
+    text-align: center;
+    background-color: beige;
+}
+
+.about .container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.about h2 {
+    font-size: 36px;
+    color: burlywood;
+    margin-bottom: 20px;
+    text-decoration: underline;
+}
+
+.about p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #555;
+    margin-bottom: 30px;
+    
+}
+
+.about h3 {
+    font-size: 24px;
+    color: burlywood;
+    margin-bottom: 15px;
+    text-decoration: underline;
+}
+
+.about ul {
+    list-style-type: disc;
+    text-align: left;
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+.about ul li {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+
+body{
+    background-color: beige;
+}
+@media screen and (min-width:1024px){body{
+    background-color: beige;
+    } }
+    @media screen and (min-width:7673px){body{
+      background-color: beige;
+      } }
+      @media screen and (min-width:768px)and(max_width:1023px){body{
+        background-color: beige;
+        } }
